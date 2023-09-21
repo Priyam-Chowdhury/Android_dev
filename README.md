@@ -15,6 +15,8 @@ Day 1 itinerary
 ![5](https://github.com/Priyam-Chowdhury/Android_dev/assets/107746625/aabf7d9e-13e1-4121-96ed-5e8c8c338079)
 Clicking on any of the itinery imagebutton 
 ![6](https://github.com/Priyam-Chowdhury/Android_dev/assets/107746625/bf0517ed-30b2-448c-951a-017e3e96056c)
+Clicking on location to explore the place and know the exact location
+![7](https://github.com/Priyam-Chowdhury/Android_dev/assets/107746625/c41e2d7a-0c3d-4140-bcda-2cb8defcdd9b)
 
 
 
