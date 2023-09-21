@@ -9,8 +9,11 @@ selecting start date of journey
 ![2](https://github.com/Priyam-Chowdhury/Android_dev/assets/107746625/10054614-d99a-4f55-9708-3f3ebe4dd29d)
 selecting end date of journey
 ![3](https://github.com/Priyam-Chowdhury/Android_dev/assets/107746625/b6ccc199-493b-49b0-af73-2b6dba1dbbde)
-selecting 2 days journey trip
+selecting 2 nights 3 days journey trip
 ![4](https://github.com/Priyam-Chowdhury/Android_dev/assets/107746625/18ea2848-0f87-481e-8006-f964a578c4c4)
+Day 1 itinerary
+![5](https://github.com/Priyam-Chowdhury/Android_dev/assets/107746625/aabf7d9e-13e1-4121-96ed-5e8c8c338079)
+
 
 
 
