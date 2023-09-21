@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_page8_UI5">
+
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#333645"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="2dp">
+
+            <ImageView
+                android:id="@+id/imageView184"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/texture_6" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="626dp"
+            android:background="#FCFD95"
+            android:backgroundTint="#FCFD95"
+            android:translationY="100dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="102dp">
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Description"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="395dp"
+                android:layout_height="136dp"
+                android:text="Today is an exciting day as you'll be exploring two of Kolkata's popular amusement parks: Nicco Park and Aquatica. These amusement parks are perfect destinations for families, friends, and anyone seeking a fun-filled day with thrilling rides and water attractions.Make sure to wear appropriate swimwear for Aquatica and comfortable clothing for Nicco Park.Enjoy your 5th day in Kolkata exploring the wonders of Nicco Park and the aquatic fun at Aquatica!"
+                android:translationX="6dp"
+                android:translationY="50dp" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Itinerary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="190dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nicco Park\nAquatica\nLunch at RDB\nNazrul Tirtha Newtown\nBiswa Bangla"
+                android:translationX="6dp"
+                android:translationY="240dp" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Photos"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="335dp" />
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginRight="10dp"
+                android:translationY="385dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/nicco_park" />
+
+                <ImageButton
+                    android:id="@+id/imageButton28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/aquatica" />
+
+                <ImageButton
+                    android:id="@+id/imageButton29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="2"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/rdb" />
+
+                <ImageButton
+                    android:id="@+id/imageButton31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/nazrul_tirtha" />
+
+                <ImageButton
+                    android:id="@+id/imageButton32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/biswabanglabanner__1_" />
+            </androidx.gridlayout.widget.GridLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

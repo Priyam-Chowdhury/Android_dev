@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_mumbai4_ui4">
+
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#333645"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <ImageView
+                android:id="@+id/imageView177"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/texture_6" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="626dp"
+            android:background="#FCFD95"
+            android:backgroundTint="#FCFD95"
+            android:translationY="100dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="102dp">
+
+            <Button
+                android:id="@+id/button109"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Description"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="395dp"
+                android:layout_height="136dp"
+                android:text="Hello and Good Morning, cherished travelers,  As the sun rises over the bustling city of Mumbai, we are delighted to welcome you to the fourth day of our immersive tour. By now, you have undoubtedly been enchanted by the myriad facets of this extraordinary metropolis, and today's exploration promises to unveil even more captivating contrasts that define Mumbai's unique charm.Let's continue our unforgettable adventure through the vibrant streets of Mumbai!"
+                android:translationX="6dp"
+                android:translationY="50dp" />
+
+            <Button
+                android:id="@+id/button110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Itinerary"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="190dp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="395dp"
+                android:layout_height="120dp"
+                android:text="Sanjay Gandhi National Park\nJyotiba Phule Market\nColaba Causeway\nMumba Devi Temple\nMount Mary Church\nBar Stock Exchange"
+                android:translationX="6dp"
+                android:translationY="240dp" />
+
+            <Button
+                android:id="@+id/button111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photos"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="350dp"
+                app:backgroundTint="#333645" />
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="55dp"
+                android:translationX="10dp"
+                android:translationY="420dp"
+                app:columnCount="3"
+                app:rowCount="5">
+
+                <ImageButton
+                    android:id="@+id/imageButton87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/sanjay_gandhi_national_park" />
+
+                <ImageButton
+                    android:id="@+id/imageButton88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/jyotiba_phule_market_mumbai" />
+
+                <ImageButton
+                    android:id="@+id/imageButton91"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="2"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/colaba_causeway__1_" />
+
+                <ImageButton
+                    android:id="@+id/imageButton92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/mumba_devi_temple" />
+
+                <ImageButton
+                    android:id="@+id/imageButton93"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/mount_mary_church" />
+
+                <ImageButton
+                    android:id="@+id/imageButton94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="2"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/bar_stock_exchange_1__1_" />
+            </androidx.gridlayout.widget.GridLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

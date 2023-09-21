@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_delhi2_ui2">
+
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#333645">
+
+            <ImageView
+                android:id="@+id/imageView170"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/texture_6" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="627dp"
+            android:background="#FCFD95"
+            android:backgroundTint="#FCFD95"
+            android:translationY="100dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="101dp">
+
+            <Button
+                android:id="@+id/button64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Description"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="395dp"
+                android:layout_height="136dp"
+                android:text=" Welcome to your second day of exploring Delhi, a city that beautifully blends history, culture, and modernity! Today's itinerary is designed to immerse you in the heart of this vibrant metropolis. Get ready for another exciting day of discoveries and experiences.Delhi has a lot to offer, from historical sites to modern attractions, so make the most of your second day exploring this diverse and fascinating city!"
+                android:translationX="6dp"
+                android:translationY="50dp" />
+
+            <Button
+                android:id="@+id/button65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Itinerary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="180dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red Fort\nRaj Ghat\nAkshardham Temple / Swaminarayan Temple\nAlai Minar\nAlai Darwaza\nAlauddin Khilji Tomb And Madrasa"
+                android:translationX="6dp"
+                android:translationY="230dp" />
+
+            <Button
+                android:id="@+id/button66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photos"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="350dp"
+                app:backgroundTint="#333645" />
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="55dp"
+                android:translationX="6dp"
+                android:translationY="420dp"
+                app:columnCount="3"
+                app:rowCount="5">
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/red_fort" />
+
+                <ImageButton
+                    android:id="@+id/imageButton44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/rajghat" />
+
+                <ImageButton
+                    android:id="@+id/imageButton45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="2"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/akhardham_temple_main__1_" />
+
+                <ImageButton
+                    android:id="@+id/imageButton46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/alai_minar_main_thumb__1_" />
+
+                <ImageButton
+                    android:id="@+id/imageButton48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/alai_darwaza_main_thumb__1_" />
+
+                <ImageButton
+                    android:id="@+id/imageButton49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/alauddin_khilji_tomb_main_thumb__1_" />
+            </androidx.gridlayout.widget.GridLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

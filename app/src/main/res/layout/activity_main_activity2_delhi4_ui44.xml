@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_delhi4_ui4_4">
+
+
+        <ImageView
+            android:id="@+id/imageView112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/lodi_garden_new" />
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="577dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="151dp">
+
+            <Button
+                android:id="@+id/button329"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Description"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="150dp" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lodhi Gardens is a sprawling green park located in the heart of Delhi. It houses the mausoleums of two Delhi Sultanate rulers, namely Mohammed Shah and Sikander Lodhi, along with other structures. Boasting of impressive architecture and impeccable natural beauty, the garden and the structures within it echo the national capital’s illustrious tryst with history."
+                android:translationX="6dp"
+                android:translationY="200dp" />
+
+            <Button
+                android:id="@+id/button330"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Reveiw"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="310dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:translationX="6dp"
+                android:translationY="360dp" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_mumbai1_ui1">
+
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#333645"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <ImageView
+                android:id="@+id/imageView174"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/texture_6" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="626dp"
+            android:background="#FCFD95"
+            android:backgroundTint="#FCFD95"
+            android:translationY="100dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="102dp">
+
+            <Button
+                android:id="@+id/button100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Description"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="395dp"
+                android:layout_height="136dp"
+                android:text="We are absolutely thrilled to have you join us today as we embark on an exciting journey through the vibrant and diverse city of Mumbai. This first day of our tour marks the beginning of an unforgettable adventure filled with rich culture, historic landmarks, and the bustling energy that Mumbai is renowned for.But Mumbai is not just about monuments; it's a city of dreams, aspirations, and cultural richness. Once again, a warm welcome to Mumbai! "
+                android:translationX="6dp"
+                android:translationY="50dp" />
+
+            <Button
+                android:id="@+id/button101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Itinerary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="185dp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="395dp"
+                android:layout_height="120dp"
+                android:text="Gateway Of India\nHaji Ali Dargah\nElephanta Caves\nFilm City\nJuhu Beach\nMarine Drive"
+                android:translationX="6dp"
+                android:translationY="235dp" />
+
+            <Button
+                android:id="@+id/button102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Photos"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="350dp" />
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="55dp"
+                android:translationX="10dp"
+                android:translationY="420dp"
+                app:columnCount="3"
+                app:rowCount="5">
+
+                <ImageButton
+                    android:id="@+id/imageButton71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/gateway_of_india" />
+
+                <ImageButton
+                    android:id="@+id/imageButton72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/haji_ali_dargah" />
+
+                <ImageButton
+                    android:id="@+id/imageButton73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="2"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/elephantah_caves" />
+
+                <ImageButton
+                    android:id="@+id/imageButton75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/film_city" />
+
+                <ImageButton
+                    android:id="@+id/imageButton76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/juhu_beach" />
+
+                <ImageButton
+                    android:id="@+id/imageButton77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="2"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/marine_drive" />
+            </androidx.gridlayout.widget.GridLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

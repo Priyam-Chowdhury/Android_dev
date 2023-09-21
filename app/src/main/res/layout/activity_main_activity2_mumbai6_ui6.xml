@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_mumbai6_ui6">
+
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#333645"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <ImageView
+                android:id="@+id/imageView179"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/texture_6" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="626dp"
+            android:background="#FCFD95"
+            android:backgroundTint="#FCFD95"
+            android:translationY="100dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="102dp">
+
+            <Button
+                android:id="@+id/button115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Description"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="395dp"
+                android:layout_height="136dp"
+                android:text="With a bittersweet blend of excitement and nostalgia, we extend a heartfelt welcome to the final day of our Mumbai tourism adventure. What a remarkable journey it has been, filled with unforgettable moments, cultural immersion, and a deeper connection to the heart and soul of this magnificent city.  As we embark on this last day together.Thank you for being a part of this incredible expedition, for sharing your curiosity, laughter, and camaraderie. "
+                android:translationX="6dp"
+                android:translationY="50dp" />
+
+            <Button
+                android:id="@+id/button116"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Itinerary"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="190dp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="395dp"
+                android:layout_height="120dp"
+                android:text="Iskcon Temple\nSri Sri Radha Gopinath Temple\nBandra-Worli Sea Link\nMalabar Hill\nKamala Nehru Udyan\nLinking Road\nLonavla"
+                android:textSize="14sp"
+                android:translationX="6dp"
+                android:translationY="240dp" />
+
+            <Button
+                android:id="@+id/button117"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Photos"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="370dp" />
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="55dp"
+                android:translationX="10dp"
+                android:translationY="430dp"
+                app:columnCount="3"
+                app:rowCount="5">
+
+                <ImageButton
+                    android:id="@+id/imageButton101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/isckon_temple" />
+
+                <ImageButton
+                    android:id="@+id/imageButton102"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/shri_radhagopinath_temple" />
+
+                <ImageButton
+                    android:id="@+id/imageButton103"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="2"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/bandra_warli_sea_link" />
+
+                <ImageButton
+                    android:id="@+id/imageButton104"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/malabar_hills" />
+
+                <ImageButton
+                    android:id="@+id/imageButton105"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/kamala_nehru_park_mumbai_" />
+
+                <ImageButton
+                    android:id="@+id/imageButton106"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="2"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/linking_road__621x414__1_" />
+
+                <ImageButton
+                    android:id="@+id/imageButton107"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="2"
+                    app:srcCompat="@drawable/lonavla_new" />
+            </androidx.gridlayout.widget.GridLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

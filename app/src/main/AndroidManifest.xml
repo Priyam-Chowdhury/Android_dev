@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.my_project">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.My_PROJECT"
+        tools:targetApi="31">
+        <activity
+            android:name=".page9_ui6_5_map136"
+            android:exported="true" />
+        <activity
+            android:name=".page9_ui6_4_map135"
+            android:exported="true" />
+        <activity
+            android:name=".page9_ui6_3_map134"
+            android:exported="true" />
+        <activity
+            android:name=".page9_ui6_2_map133"
+            android:exported="true" />
+        <activity
+            android:name=".page9_ui6_1_map132"
+            android:exported="true" />
+        <activity
+            android:name=".page8_ui5_5_map131"
+            android:exported="true" />
+        <activity
+            android:name=".page8_ui5_4_map130"
+            android:exported="true" />
+        <activity
+            android:name=".page8_ui5_3_map129"
+            android:exported="true" />
+        <activity
+            android:name=".page8_ui5_2_map128"
+            android:exported="true" />
+        <activity
+            android:name=".page8_ui5_1_map127"
+            android:exported="true" />
+        <activity
+            android:name=".page7_ui4_4_map126"
+            android:exported="true" />
+        <activity
+            android:name=".page7_ui4_3_map125"
+            android:exported="true" />
+        <activity
+            android:name=".page7_ui4_2_map124"
+            android:exported="true" />
+        <activity
+            android:name=".page7_ui4_1_map123"
+            android:exported="true" />
+        <activity
+            android:name=".page6_ui3_6_map122"
+            android:exported="true" />
+        <activity
+            android:name=".page6_ui3_5_map121"
+            android:exported="true" />
+        <activity
+            android:name=".page6_ui3_4_map120"
+            android:exported="true" />
+        <activity
+            android:name=".page6_ui3_3_map119"
+            android:exported="true" />
+        <activity
+            android:name=".page6_ui3_2_map118"
+            android:exported="true" />
+        <activity
+            android:name=".page6_ui3_1_map117"
+            android:exported="true" />
+        <activity
+            android:name=".page5_ui2_7_map116"
+            android:exported="true" />
+        <activity
+            android:name=".page5_ui2_6_map115"
+            android:exported="true" />
+        <activity
+            android:name=".page5_ui2_5_map114"
+            android:exported="true" />
+        <activity
+            android:name=".page5_ui2_4_map113"
+            android:exported="true" />
+        <activity
+            android:name=".page5_ui2_3_map112"
+            android:exported="true" />
+        <activity
+            android:name=".page5_ui2_2_map111"
+            android:exported="true" />
+        <activity
+            android:name=".page5_ui2_1_map110"
+            android:exported="true" />
+        <activity
+            android:name=".page4_ui1_7_map109"
+            android:exported="true" />
+        <activity
+            android:name=".page4_ui1_6_map108"
+            android:exported="true" />
+        <activity
+            android:name=".page4_ui1_5_map107"
+            android:exported="true" />
+        <activity
+            android:name=".page4_ui1_4_map106"
+            android:exported="true" />
+        <activity
+            android:name=".page4_ui1_3_map105"
+            android:exported="true" />
+        <activity
+            android:name=".page4_ui1_2_map104"
+            android:exported="true" />
+        <activity
+            android:name=".page4_ui1_1_map103"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai6_ui6_6_map102"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai6_ui6_5_map101"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai6_ui6_4_map100"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai6_ui6_3_map99"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai6_ui6_2_map98"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai6_ui6_1_map97"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai5_ui5_6_map96"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai5_ui5_5_map95"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai5_ui5_4_map94"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai5_ui5_3_page93"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai5_ui5_2_map92"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai5_ui5_1_map91"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai4_ui4_6_map90"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai4_ui4_5_map89"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai4_ui4_4_map88"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai4_ui4_3_map87"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai4_ui4_2_map86"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai4_ui4_1_map85"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai3_ui3_6_map84"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai3_ui3_5_map83"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai3_ui3_4_map82"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai3_ui3_3_map81"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai3_ui3_2_map80"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai3_ui3_1_map79"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai2_ui2_6_map78"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai2_ui2_5_map77"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai2_ui2_4_map76"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai2_ui2_3_map75"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai2_ui2_2_map74"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai2_ui2_1_map73"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai1_ui1_6_map72"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai1_ui1_5_map71"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai1_ui1_4_map70"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai1_ui1_3_map69"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai1_ui1_2_map68"
+            android:exported="true" />
+        <activity
+            android:name=".mumbai1_ui1_1_map67"
+            android:exported="true" />
+        <activity
+            android:name=".delhi6_ui6_6_map66"
+            android:exported="true" />
+        <activity
+            android:name=".delhi6_ui6_5_map65"
+            android:exported="true" />
+        <activity
+            android:name=".delhi6_ui6_4_map64"
+            android:exported="true" />
+        <activity
+            android:name=".delhi6_ui6_3_map63"
+            android:exported="true" />
+        <activity
+            android:name=".delhi6_ui6_2_map62"
+            android:exported="true" />
+        <activity
+            android:name=".delhi6_ui6_1_map61"
+            android:exported="true" />
+        <activity
+            android:name=".delhi5_ui5_6_map60"
+            android:exported="true" />
+        <activity
+            android:name=".delhi5_ui5_5_map59"
+            android:exported="true" />
+        <activity
+            android:name=".delhi5_ui5_4_map58"
+            android:exported="true" />
+        <activity
+            android:name=".delhi5_ui5_3_map57"
+            android:exported="true" />
+        <activity
+            android:name=".delhi5_ui5_2_map56"
+            android:exported="true" />
+        <activity
+            android:name=".delhi5_ui5_1_map55"
+            android:exported="true" />
+        <activity
+            android:name=".delhi4_ui4_5_map54"
+            android:exported="true" />
+        <activity
+            android:name=".delhi4_ui4_4_map53"
+            android:exported="true" />
+        <activity
+            android:name=".delhi4_ui4_3_map52"
+            android:exported="true" />
+        <activity
+            android:name=".delhi4_ui4_2_map51"
+            android:exported="true" />
+        <activity
+            android:name=".delhi4_ui4_1_map50"
+            android:exported="true" />
+        <activity
+            android:name=".delhi3_ui3_5_map49"
+            android:exported="true" />
+        <activity
+            android:name=".delhi3_ui3_4_map48"
+            android:exported="true" />
+        <activity
+            android:name=".delhi3_ui3_3_map47"
+            android:exported="true" />
+        <activity
+            android:name=".delhi3_ui3_2_map46"
+            android:exported="true" />
+        <activity
+            android:name=".delhi3_ui3_1_map45"
+            android:exported="true" />
+        <activity
+            android:name=".delhi2_ui2_6_map44"
+            android:exported="true" />
+        <activity
+            android:name=".delhi2_ui2_5_map43"
+            android:exported="true" />
+        <activity
+            android:name=".delhi2_ui2_4_map42"
+            android:exported="true" />
+        <activity
+            android:name=".delhi2_ui2_3_map41"
+            android:exported="true" />
+        <activity
+            android:name=".delhi2_ui2_2_map40"
+            android:exported="true" />
+        <activity
+            android:name=".delhi2_ui2_1_map39"
+            android:exported="true" />
+        <activity
+            android:name=".delhi1_ui1_5_map38"
+            android:exported="true" />
+        <activity
+            android:name=".delhi1_ui1_4_map37"
+            android:exported="true" />
+        <activity
+            android:name=".delhi1_ui1_3_map36"
+            android:exported="true" />
+        <activity
+            android:name=".delhi1_ui1_2_map35"
+            android:exported="true" />
+        <activity
+            android:name=".delhi1_ui1_1_map34"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore6_ui6_4_map33"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore6_ui6_3_map32"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore6_ui6_2_map31"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore6_ui6_1_map30"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore5_ui5_6_map29"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore5_ui5_5_map28"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore5_ui5_4_map27"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore5_ui5_3_map26"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore5_ui5_2_map25"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore5_ui5_1_map24"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore4_ui4_5_map23"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore4_ui4_4_map22"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore4_ui4_3_map21"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore4_ui4_2_map20"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore4_ui4_1_map19"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore3_ui3_6_map18"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore3_ui3_5_map17"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore3_ui3_4_map16"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore3_ui3_3_map15"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore3_ui3_2_map14"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore3_ui3_1_map13"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore2_ui2_6_map12"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore2_ui2_5_map11"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore2_ui2_4_map10"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore2_ui2_3_map9"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore2_ui2_2_map8"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore2_ui2_1_map7"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore1_ui1_6_map6"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore1_ui1_5_map5"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore1_ui1_4_map4"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore1_ui1_3_map3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore6_ui6_1"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore1_ui1_2_map2"
+            android:exported="true" />
+        <activity
+            android:name=".bangalore1_ui1_1_map1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai6_ui6_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai6_ui6_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai6_ui6_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai6_ui6_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai6_ui6_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai6_ui6_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai5_ui5_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai5_ui5_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai5_ui5_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai5_ui5_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai5_ui5_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai5_ui5_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai4_ui4_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai4_ui4_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai4_ui4_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai4_ui4_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai4_ui4_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai4_ui4_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai3_ui3_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai3_ui3_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai3_ui3_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai3_ui3_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai3_ui3_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai3_ui3_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai2_ui2_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai2_ui2_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai2_ui2_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai2_ui2_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai2_ui2_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai2_ui2_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai1_ui1_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai1_ui1_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai1_ui1_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai1_ui1_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai1_ui1_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai1_ui1_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi6_ui6_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi6_ui6_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi6_ui6_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi6_ui6_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi6_ui6_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi6_ui6_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi5_ui5_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi5_ui5_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi5_ui5_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi5_ui5_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi5_ui5_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi5_ui5_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi4_ui4_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi4_ui4_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi4_ui4_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi4_ui4_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi4_ui4_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi3_ui3_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi3_ui3_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi3_ui3_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi3_ui3_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi3_ui3_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi2_ui2_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi2_ui2_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi2_ui2_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi2_ui2_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi2_ui2_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi2_ui2_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi1_ui1_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi1_ui1_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi1_ui1_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi1_ui1_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi1_ui1_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore6_ui6_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore6_ui6_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore6_ui6_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore5_ui5_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore5_ui5_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore5_ui5_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore5_ui5_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore5_ui5_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore5_ui5_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore4_ui4_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore4_ui4_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore4_ui4_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore4_ui4_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore4_ui4_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore3_ui3_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore3_ui3_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore3_ui3_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore3_ui3_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore3_ui3_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore3_ui3_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore2_ui2_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore2_ui2_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore2_ui2_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore2_ui2_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore2_ui2_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore2_ui2_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore1_ui1_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore1_ui1_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore1_ui1_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore1_ui1_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore1_ui1_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore1_ui1_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page9_ui6_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page9_ui6_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page9_ui6_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page9_ui6_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page9_ui6_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page8_ui5_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page8_ui5_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page8_ui5_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page8_ui5_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page8_ui5_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page7_ui4_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page7_ui4_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page7_ui4_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page7_ui4_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page6_ui3_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page6_ui3_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page6_ui3_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page6_ui3_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page6_ui3_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page6_ui3_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page5_ui2_7"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page5_ui2_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page5_ui2_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page5_ui2_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page5_ui2_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page5_ui2_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page5_ui2_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page4_ui_7"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page4_ui1_6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page4_ui1_5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page4_ui1_4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page4_ui1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page4_ui1_3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page4_ui1_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page4_ui1_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore6_ui6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore5_ui5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore4_ui4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore3_ui3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore2_ui2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore1_ui1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_bangalore1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai6_ui6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai5_ui5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai4_ui4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai3_ui3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai2_ui2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai1_ui1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_mumbai1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi6_ui6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi5_ui5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi4_ui4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi3_ui3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi2_ui2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi1_ui1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_delhi_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page9_UI6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page8_UI5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page7_UI4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page6_UI3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page5_UI2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page9"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page8"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page7"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2_page4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity_page3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity_page_2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAZjwiM1YaTZrEDKUFTHJbugLN2OLutzaI" />
+    </application>
+
+</manifest>

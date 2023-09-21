@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_mumbai5_ui5">
+
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#333645"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <ImageView
+                android:id="@+id/imageView178"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/texture_6" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="626dp"
+            android:background="#FCFD95"
+            android:backgroundTint="#FCFD95"
+            android:translationY="100dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="102dp">
+
+            <Button
+                android:id="@+id/button112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Description"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="395dp"
+                android:layout_height="136dp"
+                android:text="Good day, dear explorers,  As the sun graces us with its warm embrace, we extend a hearty welcome to the fifth day of our remarkable journey through the enchanting city of Mumbai. With each passing day, your connection with this vibrant metropolis grows stronger, and today's itinerary promises to take you on a cultural odyssey that showcases Mumbai's rich diversity.Let's continue our extraordinary expedition through the vibrant tapestry of Mumbai!"
+                android:translationX="6dp"
+                android:translationY="50dp" />
+
+            <Button
+                android:id="@+id/button113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Tour Itinerary"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="190dp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="395dp"
+                android:layout_height="120dp"
+                android:text="Mumbai Zoo\nEssel World\nAksa Beach\nPowai Lake\nShivaji Park\nThe Taj Palace"
+                android:translationX="6dp"
+                android:translationY="240dp" />
+
+            <Button
+                android:id="@+id/button114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Photos"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="350dp" />
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="55dp"
+                android:translationX="10dp"
+                android:translationY="420dp"
+                app:columnCount="3"
+                app:rowCount="5">
+
+                <ImageButton
+                    android:id="@+id/imageButton95"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/mumbai_zoo" />
+
+                <ImageButton
+                    android:id="@+id/imageButton96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/essel_world" />
+
+                <ImageButton
+                    android:id="@+id/imageButton97"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="2"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/aksa_beach_mumbai_" />
+
+                <ImageButton
+                    android:id="@+id/imageButton98"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="0"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/powai_lake__4__11zon__1_" />
+
+                <ImageButton
+                    android:id="@+id/imageButton99"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/shivaji_park_mumbai" />
+
+                <ImageButton
+                    android:id="@+id/imageButton100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="2"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/taj_palace_hotel" />
+            </androidx.gridlayout.widget.GridLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

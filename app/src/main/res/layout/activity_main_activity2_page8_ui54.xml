@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_page8_ui5_4">
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/nazrul_tirtha_new" />
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="577dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="151dp">
+
+            <Button
+                android:id="@+id/button211"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Description"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="150dp" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:text="Nazrul Tirtha is a cultural and recreational center located in Kolkata, India, dedicated to the memory of Kazi Nazrul Islam, a renowned Bengali poet, writer, and musician. The center serves as a hub for promoting cultural activities, showcasing art, and celebrating the legacy of Kazi Nazrul Islam."
+                android:translationX="6dp"
+                android:translationY="200dp" />
+
+            <Button
+                android:id="@+id/button212"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Review"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="290dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:translationX="6dp"
+                android:translationY="340dp" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

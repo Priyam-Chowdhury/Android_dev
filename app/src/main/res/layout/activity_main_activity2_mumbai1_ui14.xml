@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_mumbai1_ui1_4">
+
+
+        <ImageView
+            android:id="@+id/imageView129"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/film_city_new" />
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="577dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="151dp">
+
+            <Button
+                android:id="@+id/button363"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Description"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="150dp" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Film City Mumbai, also known as Dadasaheb Phalke Chitranagari, is one of the most famous and extensive film and television production hubs in India and the world. Located in the Goregaon suburb of Mumbai, Maharashtra, it plays a pivotal role in the Indian entertainment industry, particularly Bollywood."
+                android:textSize="16sp"
+                android:translationX="6dp"
+                android:translationY="200dp" />
+
+            <Button
+                android:id="@+id/button364"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Review"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="325dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:translationX="6dp"
+                android:translationY="375dp" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

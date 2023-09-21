@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_mumbai2_ui2_3">
+
+
+        <ImageView
+            android:id="@+id/imageView140"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/taraporevala_aquarium_new" />
+
+        <FrameLayout
+            android:layout_width="409dp"
+            android:layout_height="579dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="151dp">
+
+            <Button
+                android:id="@+id/button373"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Description"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="150dp" />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Taraporewala Aquarium, located in Mumbai, Maharashtra, is one of the oldest and most popular public aquariums in India.The Taraporewala Aquarium is a popular destination for families, students, and anyone interested in marine life. It offers a fascinating glimpse into the underwater world and serves as an educational hub for learning about the diverse marine ecosystems found in the oceans and rivers of India."
+                android:translationX="6dp"
+                android:translationY="200dp" />
+
+            <Button
+                android:id="@+id/button374"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Review"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="325dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar109"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:translationX="6dp"
+                android:translationY="375dp" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

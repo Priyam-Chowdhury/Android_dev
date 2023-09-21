@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2_bangalore6_ui6_2">
+
+
+        <ImageView
+            android:id="@+id/imageView90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/nehruplanetarium_cover_photo_new" />
+
+        <FrameLayout
+            android:layout_width="407dp"
+            android:layout_height="577dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="151dp">
+
+            <Button
+                android:id="@+id/button285"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Description"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="150dp" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:text=" The Jawaharlal Nehru Planetarium in Bangalore, India, is a popular public education center dedicated to astronomy and space sciences. It is named after Jawaharlal Nehru, the first Prime Minister of India, who had a keen interest in science and education. The planetarium is designed to educate visitors about astronomy, space exploration, and related scientific topics in an engaging and interactive manner."
+                android:translationX="6dp"
+                android:translationY="200dp" />
+
+            <Button
+                android:id="@+id/button286"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333645"
+                android:text="Review"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationX="6dp"
+                android:translationY="330dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:translationX="6dp"
+                android:translationY="380dp" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

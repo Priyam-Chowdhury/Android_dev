@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2_bangalore1_ui1">
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#333645"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/texture_6" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="628dp"
+        android:background="#FCFD95"
+        android:backgroundTint="#FCFD95"
+        android:translationY="100dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="102dp">
+
+        <Button
+            android:id="@+id/button139"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#333645"
+            android:text="Tour Description"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="6dp" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="395dp"
+            android:layout_height="136dp"
+            android:text="We are thrilled to have you here for your first day tour in this vibrant and dynamic city. Get ready to embark on a journey filled with exciting experiences, cultural wonders, and modern marvels. Whether you're a history enthusiast, a food lover, or an adventure seeker, Bangalore has something special to offer everyone.So, without further ado, let's start this wonderful journey through the heart of Bangalore."
+            android:translationX="6dp"
+            android:translationY="50dp" />
+
+        <Button
+            android:id="@+id/button140"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#333645"
+            android:text="Tour Itinerary"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="6dp"
+            android:translationY="180dp" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="395dp"
+            android:layout_height="120dp"
+            android:text="Tipu Sultan’s Summer Palace\nVidhan Soudha\nAttara Kacheri\nMark’s Cathedral\nVenkatappa Art Gallery\nMayo Hall"
+            android:translationX="6dp"
+            android:translationY="230dp" />
+
+        <Button
+            android:id="@+id/button141"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#333645"
+            android:text="Photos"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="6dp"
+            android:translationY="350dp" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="55dp"
+            android:translationX="10dp"
+            android:translationY="420dp"
+            app:columnCount="3"
+            app:rowCount="5">
+
+            <ImageButton
+                android:id="@+id/imageButton108"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="0"
+                app:layout_row="0"
+                app:srcCompat="@drawable/tipu_sultan_summer_palace" />
+
+            <ImageButton
+                android:id="@+id/imageButton110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="1"
+                app:layout_row="0"
+                app:srcCompat="@drawable/vidhan_soudha" />
+
+            <ImageButton
+                android:id="@+id/imageButton111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="2"
+                app:layout_row="0"
+                app:srcCompat="@drawable/attara_kacheri__1_" />
+
+            <ImageButton
+                android:id="@+id/imageButton112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="0"
+                app:layout_row="1"
+                app:srcCompat="@drawable/st__markcathedral_" />
+
+            <ImageButton
+                android:id="@+id/imageButton113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="1"
+                app:layout_row="1"
+                app:srcCompat="@drawable/venkatappa" />
+
+            <ImageButton
+                android:id="@+id/imageButton114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="2"
+                app:layout_row="1"
+                app:srcCompat="@drawable/mayo_hall" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

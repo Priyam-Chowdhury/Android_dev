@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#333645"
+    tools:context=".MainActivity2_bangalore6_ui6">
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#333645"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView168"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/texture_6" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="628dp"
+        android:background="#FCFD95"
+        android:backgroundTint="#FCFD95"
+        android:translationY="100dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="102dp">
+
+        <Button
+            android:id="@+id/button154"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#333645"
+            android:text="Tour Description"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="6dp" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="395dp"
+            android:layout_height="150dp"
+            android:text="Welcome to the final day of your incredible journey in Bangalore!We are thrilled to have you join us today as we explore the vibrant and captivating city of Bangalore. From its rich history and diverse culture to its bustling markets and modern technology hubs, we have an exciting day planned for you.So, let's make this final day in Bangalore one to remember!Get ready to create lasting memories, forge new friendships, and leave with a deep appreciation for the remarkable city of Bangalore. "
+            android:translationX="6dp"
+            android:translationY="50dp" />
+
+        <Button
+            android:id="@+id/button155"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#333645"
+            android:text="Tour Itinerary"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="6dp"
+            android:translationY="200dp" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ulsoor Lake\nJawaharlal Nehru Planetarium\nToit\nBrigade Road"
+            android:translationX="6dp"
+            android:translationY="250dp" />
+
+        <Button
+            android:id="@+id/button156"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#333645"
+            android:text="Photos"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="6dp"
+            android:translationY="330dp" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="55dp"
+            android:translationX="10dp"
+            android:translationY="420dp"
+            app:columnCount="5"
+            app:rowCount="3">
+
+            <ImageButton
+                android:id="@+id/imageButton135"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="0"
+                app:layout_row="0"
+                app:srcCompat="@drawable/ulsoor_lake__1_" />
+
+            <ImageButton
+                android:id="@+id/imageButton139"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="1"
+                app:layout_row="0"
+                app:srcCompat="@drawable/jawaharlal_nehruplanetarium_cover_photo__1_" />
+
+            <ImageButton
+                android:id="@+id/imageButton140"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="2"
+                app:layout_row="0"
+                app:srcCompat="@drawable/toit" />
+
+            <ImageButton
+                android:id="@+id/imageButton141"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="0"
+                app:layout_row="1"
+                app:srcCompat="@drawable/bangalore_brigade_road_" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
